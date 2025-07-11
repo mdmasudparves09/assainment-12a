@@ -39,7 +39,7 @@ main {
 }
 
 .header_section {
-  background-image: url("/images/bg.png");
+  background-image: url("images/bg.png");
   height: 698px;
 }
 
