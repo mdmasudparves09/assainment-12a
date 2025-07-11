@@ -5,7 +5,7 @@
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 .mi-boton:hover {
@@ -13,13 +13,13 @@
         }
 
   .mi-boton:active {
-      background-color: blueviolet; 
+      background-color: rgb(51, 14, 85); 
         }
-}
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -39,7 +39,7 @@ main {
 }
 
 .header_section {
-  background-image: url("/images/bg.png");
+  background-image: url("./images/bg.png");
   height: 698px;
 }
 
