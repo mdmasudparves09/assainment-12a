@@ -1,66 +1,96 @@
-/* Reset */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: o;
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #fff;
-  color: #000;
+  text-align: center;
+  justify-content: center;
+  background-color: #f5f8ff;
 }
 
-/* Utility */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
+main {
+  padding: 116px 140px;
 }
 
-/* Navbar */
-.navbar {
-  background: url('demo-bg.jpg') no-repeat center center/cover;
-  padding: 20px 0;
+.header_section {
+  background-image: url("/images/bg.png");
+  height: 698px;
 }
 
-.nav-content {
+.nav_ul {
   display: flex;
   justify-content: space-between;
+  padding: 50px 150px;
   align-items: center;
 }
 
-.logo {
+.nav_ul li {
+  list-style: none;
+}
+
+.nav_ul li a {
+  text-decoration: none;
+}
+
+.nav_logo_text {
+  font-size: 34px;
+  color: #4e47ff;
+  font-family: in;
+  font-family: "inter";
+  font-weight: 800;
+}
+
+.nav_btn {
+  width: 132px;
+  height: 48px;
+  border-radius: 16px;
+  border: none;
+  background-color: #4e47ff;
+  font-family: "inter";
+  font-style: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.heroText {
+  margin-top: 209px;
+}
+
+.heroTitle {
+  font-family: "raleway";
   font-weight: bold;
-  font-size: 24px;
-  color: blue;
+  font-size: 65px;
+  margin-bottom: 37px;
 }
 
-.signup-btn {
-  background-color: #4c6ef5;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-}
-
-/* Banner */
-.banner {
-  background: url('/images/bg.png') no-repeat center center/cover;
-  padding: 80px 0;
-  text-align: center;
-}
-
-.banner-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.banner-btn {
-  background-color: #4c6ef5;
-  color: white;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 1rem;
+.heroBtn {
+  width: 174px;
+  height: 48px;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: "raleway";
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
