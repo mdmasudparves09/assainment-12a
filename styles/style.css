@@ -7,14 +7,14 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-}
+}/*
 .mi-boton:hover {
       background-color: orangered; 
         }
 
   .mi-boton:active {
-      background-color: rgb(51, 14, 85); 
-        }
+      background-color: orangered; 
+        }*/
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -378,5 +378,6 @@ main {
 .live_preview_btn:hover,
 .focus_area_btn:hover,
 .contact_form_btn:hover {
-  background-color: #3b36cc;
+  background-color: orange;
+  transition: 0.5s;
 }
