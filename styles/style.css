@@ -177,3 +177,30 @@ main {
   font-size: 20px;
   color: dimgray;
 }
+.reviews {
+  margin-top: 137px;
+}
+
+.customers_say {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+.card {
+  width: 366px;
+  height: 243px;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 24px;
+}
+.star {
+  margin-bottom: 24px;
+}
