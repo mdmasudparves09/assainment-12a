@@ -204,3 +204,136 @@ main {
 .star {
   margin-bottom: 24px;
 }
+
+.love_with_ph {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.customers_description {
+  font-family: "raleway";
+  margin: 24px 0px;
+}
+
+.customers_details {
+  display: flex;
+  gap: 12px;
+}
+
+.customers_img {
+  border-radius: 50%;
+}
+
+.customers_details_txt {
+  font-family: "inter";
+  color: #252432;
+}
+
+.focus_area {
+  margin-top: 287px;
+  height: 696px;
+  border-radius: 14px;
+  background-color: #fff;
+}
+
+.focus_area_content {
+  padding: 71px 150px;
+}
+
+.focus_area_header {
+  font-family: "raleway";
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.focus_area_description {
+  font-family: "raleway";
+  margin-bottom: 20px;
+}
+
+.btn_btn_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.focus_area_btn {
+  width: 195px;
+  height: 48px;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: "raleway";
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.img_img_img {
+  border-radius: 48px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.get_in_touch_section {
+  font-size: 97px;
+  font-weight: bold;
+  font-family: "raleway";
+}
+
+.label_heading {
+  text-align: left;
+  font-family: "inter";
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact_form {
+  text-align: left;
+}
+
+.input_field {
+  width: 497px;
+  height: 60px;
+  padding-left: 20px;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: "inter";
+}
+
+.text_area {
+  width: 497px;
+  height: 135px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 32px;
+  font-family: "inter";
+}
+
+.contact_form_btn_div {
+  display: flex;
+  justify-content: center;
+}
+
+.contact_form_btn {
+  margin-top: 20px;
+  width: 497px;
+  height: 62px;
+  background-color: #4e47ff;
+  color: #fff;
+  font-family: "raleway";
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 71px;
+  border: none;
+}
